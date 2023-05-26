@@ -10,4 +10,6 @@ The repo is organized as follows:
 	- `sim_data` contains data used by the testbenches to verify the correct functionality of the hardware modules.
 	- `utils` contains auxiliary files needed by the testbenches.
 - `embedded` contains the C code that runs on the Microblaze processor in the embedded system for integration.
-- `software-model` contains a C++ implementation of the LCMV target classifier, which serves as a comparison model and a Matlab implementation (both using LDL and Gauss-Jordan inverse), which serves as both a comparison model and code for Matlabs's Fixed-Point Converter, in order to determine the fixed-point width needed.
+- `software-model` contains code for the LCMV algorithm implemented in software:
+	- `cpp` contains a C++ implementation of the LCMV target classifier, which serves as a comparison model.
+	- `matlab` contains a Matlab implementation (both using LDL and Gauss-Jordan inverse), which serves as both a comparison model and code for Matlabs's Fixed-Point Converter, in order to determine the fixed-point width needed.
