@@ -3,8 +3,8 @@ function [classificationOutput, W] = lcmv_ldl(T, C, X)
     
     % Compute corelation matrix
 
-    %R = correlation_matrix(X);
-    R = X' * X / N;
+    R = correlation_matrix(X);
+    % R = X' * X / N;
     
     t1 = ldl_solve(R, T);    
     t2 = T' * t1;
