@@ -1,6 +1,6 @@
 # Hyperspectral LCMV Classifier
 
-This repository contains the source code for a fully hardware implementation of the LCMV Target Classifier for hyperspectral images.
+This repository contains the source code for a fully hardware implementation of the LCMV Target Classifier for hyperspectral images using LDL decomposition.
 
 The repo is organized as follows:
 
